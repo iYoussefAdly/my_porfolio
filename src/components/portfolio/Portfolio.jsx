@@ -70,21 +70,23 @@ const Portfolio = () => {
       id="portfolio"
     >
       <div className="xl:mb-17.5 mb-5">
-        <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
-          <p className="section-title ">Projects</p>
+        <div className="max-sm:px-2 text-center mx-auto max-w-144.25 animate-fadeInUp">
+          <p className="section-title bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Projects</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
             Mobile apps I built with Flutter & Dart, focusing on clean UI and robust integrations.
           </p>
         </div>
       </div>
       <div className="mx-auto flex justify-center">
-        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6 animate-fadeInUp">
           {projectData.map((data, index) => (
-            <Projects data={data} key={index} />
+            <div key={index} className="hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <Projects data={data} />
+            </div>
           ))}
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center animate-fadeInUp">
         <a
           href="https://github.com/iYoussefAdly"
           target="_blank"

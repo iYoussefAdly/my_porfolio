@@ -12,10 +12,10 @@ const Introduction = () => {
       id="introduction"
     >
       <div className="w-full flex flex-col justify-between max-lg:text-center">
-        <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
+        <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500 animate-fadeInLeft">
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
-            Hello, I’m
-            <span className="text-nowrap shrink-0 inline-block w-full">
+            Hello, I'm
+            <span className="text-nowrap shrink-0 inline-block w-full bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Youssef Adly
             </span>
           </p>
@@ -40,7 +40,7 @@ const Introduction = () => {
         <div className="mx-auto lg:mx-0 relative"></div>
       </div>
       <div
-        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[536/636] relative`}
+        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[536/636] relative animate-fadeInRight`}
       >
         <img
           className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}
