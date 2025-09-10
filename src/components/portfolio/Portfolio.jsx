@@ -10,55 +10,55 @@ const projectData = [
   {
     id: 1,
     image: card1,
-    category: "Flutter / REST API",
+    category: "Flutter / REST API / State Management",
     title: "Bookly App",
     description:
-      "Browse and read books with smooth UI and API integration. Built with Flutter & Dart.",
+      "A comprehensive book browsing app with smooth UI, API integration, and state management using Cubit. Features include book search, favorites, and reading progress tracking.",
     link: "https://github.com/iYoussefAdly/bookly_app.git",
   },
   {
     id: 2,
     image: card2,
-    category: "Flutter / REST API",
+    category: "Flutter / REST API / BLoC",
     title: "News App",
     description:
-      "Categorized news with a modern UI and clean state handling.",
+      "Modern news application with categorized content, clean architecture, and BLoC state management. Includes offline reading and bookmark functionality.",
     link: "https://github.com/iYoussefAdly/news_app.git",
   },
   {
     id: 3,
     image: card3,
-    category: "Flutter / REST API",
+    category: "Flutter / REST API / UI/UX",
     title: "Weather App",
     description:
-      "Real-time weather data with a simple, intuitive UI.",
+      "Beautiful weather app with real-time data, location services, and intuitive UI design. Features include weather forecasts and location-based updates.",
     link: "https://github.com/iYoussefAdly/weather_app.git",
   },
   {
     id: 4,
     image: card4,
-    category: "Flutter / Hive",
+    category: "Flutter / Hive / Local Storage",
     title: "Notes App",
     description:
-      "Create, edit, and manage notes with local storage using Hive.",
+      "Feature-rich notes application with local storage using Hive. Includes note categorization, search functionality, and data persistence.",
     link: "https://github.com/iYoussefAdly/notes_app.git",
   },
   {
     id: 5,
     image: card5,
-    category: "Flutter / Firebase",
+    category: "Flutter / Firebase / Real-time",
     title: "Chat App",
     description:
-      "Real-time chat with Firebase authentication and messaging.",
+      "Real-time messaging app with Firebase authentication, Firestore database, and live chat functionality. Includes user profiles and message history.",
     link: "https://github.com/iYoussefAdly/Chat_app.git",
   },
   {
     id: 6,
     image: card6,
-    category: "Flutter / Portfolio",
+    category: "Flutter / Portfolio / Web",
     title: "More Projects",
     description:
-      "Find additional apps and experiments on my GitHub profile.",
+      "Explore additional Flutter projects, experiments, and contributions on my GitHub profile. Includes various mobile app implementations and learning projects.",
     link: "https://github.com/iYoussefAdly",
   },
 ];

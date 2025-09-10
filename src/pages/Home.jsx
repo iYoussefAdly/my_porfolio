@@ -2,6 +2,7 @@ import Introduction from "../components/introduction/Introduction";
 import Profile from "../components/profile/Profile";
 import WorkProcess from "../components/workProcess/WorkProcess";
 import Skills from "../components/skills/Skills";
+import Certificates from "../components/certificates/Certificates";
 import Portfolio from "../components/portfolio/Portfolio";
 import WorkTogether from "../components/workTogether/WorkTogether";
 // import Blog from "../components/blog/Blog";
@@ -24,6 +25,7 @@ const Home = () => {
         <WorkProcess />
       </div>
       <Skills />
+      <Certificates />
       <Portfolio />
       <div className="bg-gray-900">
         <WorkTogether />

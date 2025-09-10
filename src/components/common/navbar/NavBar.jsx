@@ -7,8 +7,9 @@ const navItems = [
   { id: 2, name: "About", url: "profile" },
   { id: 3, name: "Process", url: "work-process" },
   { id: 4, name: "Skills", url: "skills" },
-  { id: 5, name: "Portfolio", url: "portfolio" },
-  { id: 6, name: "Services", url: "services" },
+  { id: 5, name: "Certificates", url: "certificates" },
+  { id: 6, name: "Portfolio", url: "portfolio" },
+  { id: 7, name: "Services", url: "services" },
 ];
 
 const handleMenuClick = () => {
@@ -94,7 +95,7 @@ const NavBar = () => {
           >
             <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
             <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-              Brooklyn
+              Youssef Adly
             </p>
           </Link>
         </div>
