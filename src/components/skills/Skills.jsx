@@ -2,30 +2,30 @@ import { useState } from "react";
 
 const skillsData = [
   {
-    category: "Mobile Development",
+    category: "Core Development",
     skills: [
       { name: "Flutter", level: 90, color: "bg-blue-500" },
       { name: "Dart", level: 85, color: "bg-cyan-500" },
-      { name: "Android", level: 75, color: "bg-green-500" },
-      { name: "iOS", level: 70, color: "bg-gray-600" },
+      { name: "UI/UX Implementation", level: 80, color: "bg-green-500" },
+      { name: "APIs Integration", level: 85, color: "bg-purple-500" },
     ]
   },
   {
-    category: "Backend & APIs",
+    category: "Backend & Storage",
     skills: [
       { name: "Firebase", level: 80, color: "bg-orange-500" },
-      { name: "REST APIs", level: 85, color: "bg-purple-500" },
-      { name: "JSON", level: 90, color: "bg-yellow-500" },
-      { name: "HTTP", level: 80, color: "bg-red-500" },
+      { name: "Shared Preferences", level: 85, color: "bg-yellow-500" },
+      { name: "Hive", level: 80, color: "bg-red-500" },
+      { name: "Local Storage", level: 75, color: "bg-indigo-500" },
     ]
   },
   {
     category: "State Management",
     skills: [
-      { name: "Provider", level: 85, color: "bg-indigo-500" },
-      { name: "BLoC", level: 75, color: "bg-pink-500" },
-      { name: "GetX", level: 70, color: "bg-teal-500" },
-      { name: "Riverpod", level: 65, color: "bg-emerald-500" },
+      { name: "Cubit", level: 85, color: "bg-pink-500" },
+      { name: "BLoC", level: 80, color: "bg-teal-500" },
+      { name: "State Management", level: 85, color: "bg-emerald-500" },
+      { name: "Provider", level: 75, color: "bg-violet-500" },
     ]
   },
   {
@@ -34,7 +34,7 @@ const skillsData = [
       { name: "Git & GitHub", level: 85, color: "bg-gray-700" },
       { name: "VS Code", level: 90, color: "bg-blue-600" },
       { name: "Figma", level: 75, color: "bg-pink-600" },
-      { name: "Hive", level: 80, color: "bg-yellow-600" },
+      { name: "Debugging", level: 80, color: "bg-yellow-600" },
     ]
   }
 ];
@@ -47,7 +47,7 @@ const Skills = () => {
       <div className="text-center mb-15 animate-fadeInUp">
         <p className="section-title bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Skills & Technologies</p>
         <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400 max-w-2xl mx-auto">
-          Technologies and tools I use to build amazing mobile applications
+          My expertise in Flutter development, state management, and backend integration
         </p>
       </div>
 
@@ -96,12 +96,12 @@ const Skills = () => {
             Always Learning & Growing
           </h3>
           <p className="text-gray-600 mb-6">
-            I'm constantly exploring new technologies and improving my skills. 
-            Currently learning advanced Flutter patterns, clean architecture, and performance optimization.
+            I'm constantly improving my Flutter skills and exploring new technologies. 
+            Currently focusing on advanced state management patterns, clean architecture, and performance optimization.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <span className="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">
-              🚀 Performance Optimization
+              🚀 Flutter Performance
             </span>
             <span className="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">
               🏗️ Clean Architecture
@@ -110,7 +110,7 @@ const Skills = () => {
               🎨 Advanced UI/UX
             </span>
             <span className="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">
-              🔧 DevOps & CI/CD
+              🔧 State Management
             </span>
           </div>
         </div>
