@@ -4,8 +4,8 @@ import Loading from "../components/common/loading/Loading";
 const Home = lazy(() => import("../pages/Home"));
 const Main = lazy(() => import("../layouts/Main"));
 
-const repoName = import.meta.env.VITE_REPO_NAME || "";
-const basename = repoName ? `/${repoName}` : undefined;
+// Remove basename for GitHub Pages compatibility
+const basename = undefined;
 
 const RouteError = () => (
   <div className="content py-20 text-center">
