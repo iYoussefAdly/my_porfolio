@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig(({ mode }) => {
   loadEnv(mode, process.cwd(), "");
   return {
-    base: "./",
+    base: "/", // مهم جدًا علشان يحل مشكلة الصفحة البيضا على Vercel
     plugins: [react(), tailwindcss()],
     server: {
       open: true,
